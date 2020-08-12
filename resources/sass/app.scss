@@ -4,6 +4,18 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Fontawesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
 /* universal */
 
 html {
@@ -28,6 +40,8 @@ body {
     margin-bottom: 40px;
     margin-top: 0px;
 }
+
+/* footer */
 
 .footer {
     position: absolute;
