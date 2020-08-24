@@ -6,9 +6,10 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class Request extends FormRequest
 {
-    public function authorize()
+    public function rules()
     {
-    	// Using policy for Authorization
-        return true;
+        return [
+            'content' => 'required|min:2',
+        ];
     }
 }
