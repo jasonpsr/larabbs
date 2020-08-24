@@ -77,9 +77,9 @@ body {
 }
 
 /* Topic Index Page */
-.topics-index-page,.categories-show-page {
+.topics-index-page, .categories-show-page {
     .topic-list {
-        .nav>li>a {
+        .nav > li > a {
             position: relative;
             display: block;
             padding: 5px 14px;
@@ -118,7 +118,7 @@ body {
 }
 
 .simditor-body img {
-    max-width:100%;
+    max-width: 100%;
 }
 
 /* Topic Show Page */
@@ -135,5 +135,18 @@ body {
             font-size: 28px;
             line-height: 38px;
         }
+    }
+}
+
+/* 回复列表 */
+
+.topic-reply {
+    a {
+        color: inherit;
+    }
+
+    .meta {
+        font-size: .9em;
+        color: #b3b3b3;
     }
 }
